@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: 112rem;
+  margin: 3.2rem auto;
+  display: grid;
+  grid-template-columns: 25.6rem 1fr;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
